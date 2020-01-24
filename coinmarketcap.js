@@ -7,7 +7,7 @@
 // @match        *://*.coinmarketcap.com/*
 // @grant        none
 // @require      https://gitcdn.xyz/repo/fuzetsu/userscripts/b38eabf72c20fa3cf7da84ecd2cefe0d4a2116be/wait-for-elements/wait-for-elements.js
-// @downloadURL  https://raw.githubusercontent.com/syslxg/userscripts/master/coinmartketcap.js
+// @downloadURL  https://raw.githubusercontent.com/syslxg/userscripts/master/coinmarketcap.js
 // ==/UserScript==
 
 function killIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.remove()})}
