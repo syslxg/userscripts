@@ -14,5 +14,5 @@ function killIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.remove()})}
 
 if (window.self === window.top) {
     killIt('#ad-slot--header-banner')
-  //  killIt('#left_adv')
+    killIt('#bannerAThrone')
 }
