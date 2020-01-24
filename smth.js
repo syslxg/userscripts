@@ -7,7 +7,7 @@
 // @match        https://www.newsmth.net/*
 // @grant        none
 // @require      https://gitcdn.xyz/repo/fuzetsu/userscripts/b38eabf72c20fa3cf7da84ecd2cefe0d4a2116be/wait-for-elements/wait-for-elements.js
-// @downloadURL 
+// @downloadURL  https://raw.githubusercontent.com/syslxg/userscripts/master/smth.js
 // ==/UserScript==
 
 function killIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.remove()})}
