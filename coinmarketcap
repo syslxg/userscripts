@@ -15,4 +15,5 @@ function killIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.remove()})}
 if (window.self === window.top) {
     killIt('#ad-slot--header-banner')
     killIt('#bannerAThrone')
+    killIt('#cmc-cookie-policy-banner')
 }
