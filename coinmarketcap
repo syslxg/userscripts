@@ -16,5 +16,6 @@ if (window.self === window.top) {
     killIt('#ad-slot--header-banner')
     killIt('#ad-slot--leaderboard-top')
     killIt('#ad-slot--leaderboard-side')
-    killIt('div.cmc-sidebar-ad')
+    killIt('#cmc-sidebar-ad')
+    killIt('#cmc-cookie-policy-banner')
 }
