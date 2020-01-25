@@ -15,7 +15,9 @@ function killIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.remove()})}
 if (window.self === window.top) {
     killIt('#ad-slot--header-banner')
     killIt('#ad-slot--leaderboard-top')
+    killIt('.cmc-main-section__sidebar')
     killIt('#ad-slot--leaderboard-side')
-    killIt('#cmc-sidebar-ad')
+    killIt('.cmc-sidebar-ad')
     killIt('#cmc-cookie-policy-banner')
+    killIt('#ad-slot--leaderboard-bottom')
 }
