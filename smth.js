@@ -17,4 +17,5 @@ if (window.self === window.top) {
   //  waitForElems({sel: ' #left_adv', onmatch: a=>a.remove()})
     killIt('#top_head')
     killIt('#left_adv')
+    killIt('#sogou_banner')
 }
