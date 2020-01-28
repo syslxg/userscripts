@@ -11,11 +11,13 @@
 // ==/UserScript==
 
 function killIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.remove()})}
+function killAll(sel) { waitForElems( { sel: sel, stop: false, onmatch: a=>a.remove()})}
+function clickIt(sel) { waitForElems( { sel: sel, onmatch: a=>a.click()})}
 
 if (window.self === window.top) {
-  //  waitForElems({sel: '#top_head', onmatch: a=>a.remove()})
-  //  waitForElems({sel: ' #left_adv', onmatch: a=>a.remove()})
     killIt('#top_head')
     killIt('#left_adv')
-    killIt('#sogou_banner')
+    killIt('div.googlead')
+    killAll('#sogou_banner')
+ //   clickIt('#u_login_submit')
 }
